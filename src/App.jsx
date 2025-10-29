@@ -7,7 +7,7 @@ function App() {
   const [routeData, setRouteData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const intervalRef = useRef(null);
 
   useEffect(() => {
